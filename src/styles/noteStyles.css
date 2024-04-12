@@ -1,0 +1,24 @@
+.note {
+  background-color: #ffffff;
+  border-left: 5px solid #007bff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.note:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.note-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.note-description {
+  font-size: 14px;
+  color: #666;
+}
